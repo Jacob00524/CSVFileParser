@@ -2,7 +2,7 @@ BUILD_FOLDER = build
 TARGET = libcsv.a
 TEST = test
 
-CFLAGS = -Wall -fPIC -O0 -g3
+CFLAGS = -Wall -fPIC -O4
 INCLUDE = -Iinclude
 
 SRC := $(wildcard src/*.c)
